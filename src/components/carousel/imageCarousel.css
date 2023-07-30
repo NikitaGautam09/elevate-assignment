@@ -1,0 +1,230 @@
+
+/* .carousel {
+    position: relative;
+    height: 500px; 
+    overflow: hidden;
+  }
+  
+  .carousel-image {
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center; 
+ animation: fadeIn 1s ease-in-out; 
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  } */
+  
+  /* .image1 {
+    background-image: url('../../assets/e-commerce-main-image.jpg');
+  }
+  
+  .image2 {
+    background-image: url('../../assets/e-commerce-image.jpg');
+  }
+  
+  .image3 {
+    background-image: url('../../assets/ecommerce-shopping-online.jpg');
+  }
+  
+  .carousel-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .carousel-image {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  } */
+
+  /* ImageCarousel.css */
+
+/* .carousel-root {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .carousel .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  
+  /* Add any additional styling as needed */
+  
+  /* ImageCarousel.css */
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+  }
+  
+  .carousel-container .carousel .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Add this to align content in a column */
+    justify-content: space-between;
+    /* align-content: center; */
+     /* Add this to push content to the top and bottom */
+  }
+  
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .search-bar {
+    position: absolute;
+    /* bottom: 40px; Adjust the distance from the bottom as needed */
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline;
+    align-items: center;
+  }
+  .heading {
+    position: absolute;
+    /* bottom: 40px; Adjust the distance from the bottom as needed */
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+  }
+  .search-bar input {
+    padding: 8px 80px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 40px;
+  }
+
+  .search-icon {
+    margin-right: 8px;
+    top:80px;
+    color: #ccc;
+    background-color: orangered;
+    display: inline;
+    height: 35px;
+  }
+
+  .dropdown-container {
+    position: absolute;
+    /* bottom: 40px; Adjust the distance from the bottom as needed */
+    top: 100px;
+    left: 30%;
+    transform: translateX(-50%);
+    display: inline;
+    align-items: center;
+    padding: 8px 100px;
+    border-radius: 4px;
+    height: 50px;
+    
+    outline: none;
+    margin-top: 30px;
+  }
+
+  /* .dropdown {
+    width: 500px; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    background-color: #fff;
+    height: 40px;
+  } */
+
+  .droplang{
+    position: absolute;
+    /* bottom: 40px; Adjust the distance from the bottom as needed */
+    top: 80px;
+    left: 70%;
+    transform: translateX(-50%);
+    display: inline;
+    padding: 8px 100px;
+    border-radius: 4px;
+    height: 50px;
+    color:white;
+    
+    outline: none;
+    margin-top: 30px;
+  }
+
+  .row-element{
+    display: block;
+    margin-top: 60pxSS;
+  }
+  .hamburger-align{
+    display: inline;
+    width: 300px;
+  }
+  
+  .login-element{
+    position: absolute;
+    /* bottom: 40px; Adjust the distance from the bottom as needed */
+    top: 100px;
+    left: 30%;
+    transform: translateX(-50%);
+    /* display: inline; */
+    padding: 8px 100px;
+    border-radius: 4px;
+    height: 50px;
+    
+    outline: none;
+    margin-top: 30px;
+  }
+  
+  .add-cart{
+    position: absolute;
+    /* bottom: 40px; Adjust the distance from the bottom as needed */
+    top: 80px;
+    left: 80%;
+   
+    height: 30px;
+    color:white;
+    
+    outline: none;
+    margin-top: 30px;
+  }
+
+  .add-cart1{
+    position: absolute;
+    /* bottom: 40px; Adjust the distance from the bottom as needed */
+    top: 80px;
+    left: 74%;
+   
+    height: 30px;
+    color:white;
+    
+    outline: none;
+    margin-top: 30px;
+  }
+  
+
+ 
+  /* Add any additional styling as needed */
+  
